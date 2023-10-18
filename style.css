@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+.navigation{
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.nav-lap li:hover{
+    color: grey;
+    /* background-color: black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.clients{
+    color: gray;
+}
+.hero{
+    background-color: aquamarine;
+}
+.about .img{
+   height: 50px;
+   width: 50px;
+   /* margin-left: 120px; */
+   
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: gray;
+}
+.plant1, .plant2, .plant3{
+    height: 500px;
+    width: 200px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.plant1, .plant3{
+    position: relative;
+    bottom: 25px;
+}
+.plant2{
+    position: relative;
+    top: 25px;
+}
+
+.he2{
+    margin-top: 50px;
+}
+.plant1:hover{
+    transform: scale(1.1);
+}
+.plant2:hover{
+    transform: scale(1.1);
+}
+.plant3:hover{
+    transform: scale(1.1);
+}
+.rating{
+    background-color: aquamarine;
+}
+.girl{
+    position: relative;
+    bottom: 20px;
+}
+.rating h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+.rating p{
+    font-size: 20px;
+    margin: 2px;
+}
+.footer{
+    background-color: aquamarine;
+}
+.pngs{
+    width: 50px;
+    height: 50px;
+}
+.image{
+    transition: 1s;  
+    cursor: pointer; 
+}
+.image:hover{
+    transform: scale(0.9);
+}
